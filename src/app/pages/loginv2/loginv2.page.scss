@@ -1,0 +1,79 @@
+.input-container {
+    display: flex;
+    // flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .country-input, 
+  .number-input {
+    background: #EAEAEA;
+    padding-left: 10px;
+  }
+  
+  // .custom-input {
+  //   background: #EAEAEA;
+  //   display: flex;
+  //   gap: 1;
+  // }
+  
+  .social-buttons ion-button {
+    background: #EAEAEA;
+    margin: 5px 0;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .find-account-button {
+    // --background: #EAEAEA;
+    width: 100%;
+    justify-content: center;
+    // margin-top: 10px;
+  }
+  
+  .continue-button {
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    background: #EAEAEA;
+    color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+  }
+  
+  .recaptcha {
+    color: #B0B0B0;
+    // text-align: center;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  
+  .link-text {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .disclaimer{
+    color: #B0B0B0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .separator {
+    text-align: center;
+    color: gray;
+    border-bottom: 1px solid gray;
+    line-height: 0.1em;
+    margin: 10px 0 10px; 
+  }
+  
+  .icon-arrow{
+    font-size: 30px;
+  }

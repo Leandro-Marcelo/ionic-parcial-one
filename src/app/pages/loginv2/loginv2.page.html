@@ -1,0 +1,48 @@
+<ion-content class="ion-padding">
+
+  <h2>Enter your mobile number</h2>
+
+  <div class="input-container">
+    <ion-select placeholder="Country" class="country-input"></ion-select>
+    <ion-input type="number" placeholder="Phone number" class="number-input"></ion-input>
+  </div>
+
+  <ion-button expand="block" color="dark" class="continue-button">Continue</ion-button>
+
+  <div class="separator">or</div>
+
+  <div class="social-buttons">
+    <ion-button fill="clear">
+      <ion-icon name="logo-apple"></ion-icon> Continue with Apple
+    </ion-button>
+    <ion-button fill="clear">
+      <ion-icon name="logo-facebook"></ion-icon> Continue with Facebook
+    </ion-button>
+    <ion-button fill="clear">
+      <ion-icon name="logo-google"></ion-icon> Continue with Google
+    </ion-button>
+    <ion-button fill="clear">Continue with Email</ion-button>
+  </div>
+
+  <div class="separator">or</div>
+
+  <ion-button fill="clear" class="find-account-button">
+    <ion-icon name="search-outline"></ion-icon> Find my account
+  </ion-button>
+
+  <p class="disclaimer">
+    By proceeding, you consent to get calls, whatsApp or SMS messages, including by automated means, from Uber and its affiliates to the number provided
+  </p>
+
+  <ion-button fill="clear" color="medium" class="back-button" routerLink="/welcome">
+    <!-- <ion-icon name="chevron-back-outline" class="icon-arrow"></ion-icon> -->
+    <img src="assets/imgs/arrowLeft.png" alt="">
+  </ion-button>
+
+  <p class="recaptcha">
+    This site is protected by reCAPTCHA and the Google 
+    <span class="link-text">Privacy Policy</span> and 
+    <span class="link-text">Terms of Service</span> apply.
+  </p>
+
+</ion-content>
